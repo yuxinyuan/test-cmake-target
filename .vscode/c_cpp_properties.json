@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Android",
+            "compilerPath": "E:/ProgramFiles/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe",
+            // "compilerArgs": [
+            //     "--target=aarch64-none-linux-android21",
+            //     "--gcc-toolchain=E:/ProgramFiles/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64",
+            //     "--sysroot=E:/ProgramFiles/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+            // ],
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-x64",
+            // "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

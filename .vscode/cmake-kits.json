@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Clang Android",
+        "compilers": {
+          "C": "E:/ProgramFiles/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+          "CXX": "E:/ProgramFiles/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+        },
+        "toolchainFile": "E:/ProgramFiles/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+        "cmakeSettings": {
+          "CMAKE_MAKE_PROGRAM": "E:/ProgramFiles/Android/sdk/cmake/3.18.1/bin/ninja.exe",
+          "ANDROID_NDK": "E:/ProgramFiles/Android/sdk/ndk/21.1.6352462",
+          "ANDROID_TOOLCHAIN": "clang",
+          "ANDROID_PLATFORM": "android-16",
+          "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/output/android/${variant:buildType}/${variant:abi}",
+          "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "${workspaceFolder}/intermediates/android/${variant:buildType}/${variant:abi}",
+          "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+        }
+      }
+]
